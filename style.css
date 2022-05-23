@@ -298,6 +298,7 @@ a {
 	border: none;
 	margin-bottom: 20px;
 }
+ 
 .table thead th {
 	font-weight: bold;
 	text-align: left;
@@ -324,6 +325,17 @@ a {
 	background: #f3f3f3;
 }
 
+@media (max-width: 400px) {
+  /* .table {
+    min-width: 470px;
+  } */
+  .table thead th {
+    padding: 10px 5px;
+  }
+  .table tbody td {
+    padding: 10px 5px;
+  }
+}
 /*---experience------------------------------------------------*/
 
 .footer {
